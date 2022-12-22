@@ -25,7 +25,10 @@ body {
 }
 img { max-width: 100%; }
 h1, h2, h3, p, span { margin: 0; }
-li { list-style: none; }
+ul, li { 
+    list-style: none; 
+    padding: 0;
+}
 main {
     display: flex;
     height: 100vh;
@@ -67,12 +70,12 @@ main {
 .advice {
     color: var(--b-yellow);
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 .join-p {
     color: var(--g-blue);
     line-height: 1.7;
 }
-
 
 /* SUSCRIPTION */
 .suscription {
@@ -130,7 +133,7 @@ li {
     main { height: auto; }
     .grid-card { 
         grid-template-columns: 1fr;
-        width: 85%;
+        width: 87%;
         margin: 8rem auto;
     }
     .join, .suscription, .description{ 
